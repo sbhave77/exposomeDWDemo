@@ -13,4 +13,4 @@ pip install folium
 pip install matplotlib
 pip install ipython
 pip install jupyter
-
+pip install pysal
