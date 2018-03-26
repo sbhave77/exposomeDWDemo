@@ -14,3 +14,4 @@ pip install matplotlib
 pip install ipython
 pip install jupyter
 pip install pysal
+pip install requests
