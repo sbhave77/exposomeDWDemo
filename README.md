@@ -16,7 +16,22 @@ git clone https://github.com/sbhave77/exposomeDWDemo.git
 
 This setup script will download `pip` and `virtualenv` if you don't already have it. It will also set up a virtual environment with python2.7 and install a list of python packages necessary for the demo inside this virutalenv so it does not affect your own python settings or dependancies.
 
-For windows, you will have to make sure to have pip so that you can install virtualenv. Additionally, you will have to specify an environmental variable called `python27path` to specify the path of python2.7 installed on your machine. After these steps, the script should work (hopefully) and you can proceed.
+I'm not certain that the script works for windows, but if you have python2.7 and pip you can run the following queries for setup.
+
+```
+pip install pandas
+pip install psycopg2-binary
+pip install sqlalchemy
+pip install geopandas
+pip install numpy
+pip install scipy
+pip install folium
+pip install matplotlib
+pip install ipython
+pip install jupyter
+pip install pysal
+pip install requests
+```
 
 Once this script finishes running, run jupyter notebook. 
 
